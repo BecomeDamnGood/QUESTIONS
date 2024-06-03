@@ -5,19 +5,47 @@
   "ID": 1,
   "Name": "MarCom understanding",
   "Question": "I know the specific market mechanisms of the markets we operate in, know in which way I have to approach these and can communicate at a strategic level with our business partners",
-  "Description": "I know the specific market mechanisms of the markets we operate in, known in which way I have to approach these and can communicate at a strategic level with our business partners",
+  "Description": "When answering this question, consider the full range of business partners you might encounter. This includes junior partners who may respond to a junior market strategist and senior partners who require more seasoned advice. Your rating should reflect your ability to understand market mechanisms, approach them effectively, and communicate strategically with different types of partners:\n\nIf you understand the market mechanisms but cannot effectively apply or communicate them, rate yourself a 3.\nIf only junior partners listen to your strategic communication, rate yourself a 5.\nIf most types of partners usually respond well to your market knowledge and strategic communication, and you can work independently, rate yourself a 6.\nIf all types of partners always respond well to your market knowledge and strategic communication, rate yourself a 7.\nIf partners highly value your market insights and strategic communication, rate yourself an 8.\nIf partners and colleagues are always impressed by your market knowledge and strategic communication, rate yourself a 9.\nIf you are recognized as the best in understanding market mechanisms and strategic communication, rate yourself a 10.",
   "Weight": 50,
-  "Sequence": 1
+  "Sequence": 1,
+  "Advies 1-4": "Start by gaining a solid understanding of market mechanisms through reading, online courses, and workshops. Seek mentorship from experienced market strategists.\nPractice applying market knowledge in low-risk scenarios. Request feedback and iterate on your approach.\nVolunteer for projects where you can practice market strategies and strategic communication in a controlled environment to build confidence and experience.",
+  "Advies 5-6": "Engage in more complex projects to challenge your market understanding and strategic communication skills. Work on enhancing your communication techniques to convey your insights more effectively.\nSeek opportunities to work with more senior partners to broaden your experience. Consider advanced training or certifications in market analysis and strategic communication to solidify your expertise.",
+  "Advies 7": "Enhance your network within your industry to learn from peers and share best practices.\nTake on leadership roles in projects involving market strategies to further refine your skills.\nStay updated with the latest trends and innovations in market analysis and strategic communication.\n",
+  "Advies 8 -10": "You are highly skilled, and your business partners are very impressed with your market knowledge and strategic communication. Share your knowledge through mentoring or leading workshops. Continue to seek challenging projects to further hone your skills.\nYour expertise is widely recognized. Consider writing articles or books on market mechanisms and strategic communication to share your insights with a broader audience. Take part in industry conferences as a speaker.\nYou are at the pinnacle of your field. Focus on shaping the future of market strategies by contributing to thought leadership, advising top-tier partners, and nurturing the next generation of market strategists.",
+  "Answer1": "I have no understanding of the market mechanisms.",
+  "Answer2": "I know the market mechanisms but cannot apply this knowledge.",
+  "Answer3": "I understand the market mechanisms but cannot apply them effectively.",
+  "Answer4": "I apply market knowledge at a very basic level.",
+  "Answer5": "I apply market knowledge to some extent.",
+  "Answer6": "I apply market knowledge regularly at a professional level.\n",
+  "Answer7": "I excel in market knowledge and strategic communication with partners.",
+  "Answer8": "I am highly skilled in market knowledge, and people are very impressed.\n",
+  "Answer9": "I am among the best in market knowledge and strategic communication in my field.",
+  "Answer10": "No one is more proficient in market knowledge and strategic communication than I am."
  },
  {
   "Main Group": "COMMERCIAL",
   "Sub Group": "Strategic",
   "ID": 2,
   "Name": "Market understanding",
-  "Question": "I know what is going on in the retail sector and at vendors and have understanding of the interests, behaviour, products, players and trends on that market. I know the complete logistical and value chain in that market",
-  "Description": "I know what is going on in the retail branch and at vendors and have understanding of the interests, behaviour, products, players and trends on that market. I know the complete logistical and value chain in that market",
+  "Question": "To what extent do you understand the specific sector, including the interests, behavior, products, players, and trends in that market, and know the complete logistical and value chain?",
+  "Description": "When answering this question, consider the full range of stakeholders you might encounter within the sector. This includes junior stakeholders who may engage with a junior sector analyst and senior stakeholders who require more seasoned insights. Your rating should reflect your ability to understand the sector, including interests, behavior, products, players, and trends, as well as the complete logistical and value chain:\n\nIf you understand the sector but cannot effectively apply or communicate this knowledge, rate yourself a 3.\nIf only junior stakeholders engage with your insights, rate yourself a 5.\nIf most types of stakeholders usually respond well to your sector knowledge and logistical understanding, and you can work independently, rate yourself a 6.\nIf all types of stakeholders always respond well to your sector knowledge and logistical understanding, rate yourself a 7.\nIf stakeholders highly value your sector insights and logistical understanding, rate yourself an 8.\nIf stakeholders and colleagues are always impressed by your sector knowledge and logistical understanding, rate yourself a 9.\nIf you are recognized as the best in understanding the sector and its logistical and value chain, rate yourself a 10.",
   "Weight": 50,
-  "Sequence": 2
+  "Sequence": 2,
+  "Advies 1-4": "Start by gaining a solid understanding of the specific sector through reading, online courses, and workshops. Seek mentorship from experienced sector analysts.\nPractice applying sector knowledge in low-risk scenarios. Request feedback and iterate on your approach.\nVolunteer for projects where you can practice sector analysis and understanding of the logistical and value chain in a controlled environment to build confidence and experience.",
+  "Advies 5-6": "Engage in more complex projects to challenge your sector understanding and logistical analysis skills. Work on enhancing your communication techniques to convey your insights more effectively.\nSeek opportunities to work with more senior stakeholders to broaden your experience. Consider advanced training or certifications in sector analysis and logistical chain management to solidify your expertise.",
+  "Advies 7": "Enhance your network within your industry to learn from peers and share best practices.\nTake on leadership roles in projects involving sector analysis and logistical chain understanding to further refine your skills.\nStay updated with the latest trends and innovations in sector analysis and logistical chain management.",
+  "Advies 8 -10": "You are highly skilled, and your stakeholders are very impressed with your sector knowledge and logistical understanding. Share your knowledge through mentoring or leading workshops. Continue to seek challenging projects to further hone your skills.",
+  "Answer1": "I have no understanding of the specific sector.",
+  "Answer2": "I know about the sector but cannot apply this knowledge.\n",
+  "Answer3": "I understand the sector but cannot apply the knowledge effectively.",
+  "Answer4": "I apply sector knowledge at a very basic level.",
+  "Answer5": "I apply sector knowledge to some extent.",
+  "Answer6": "I apply sector knowledge regularly at a professional level.\n",
+  "Answer7": "I excel in understanding the sector and its value chain.",
+  "Answer8": "I am highly skilled in sector knowledge, and people are very impressed.\n",
+  "Answer9": "I am among the best in understanding the sector and its value chain.\n",
+  "Answer10": "No one is more proficient in understanding the sector and its value chain than I am."
  },
  {
   "Main Group": "COMMERCIAL",
@@ -27,7 +55,8 @@
   "Question": "I can translate commercial strategies and\/or sub-strategies SMART into activities and tasks that have to be done within Quince. (SMART. Specific, Measurable, Acceptable, Realistic, Time-limited)",
   "Description": "I can translate commercial strategies and\/or sub-strategies SMART into activities and tasks that have to be done within Quince (SMART: Specific, Measurable, Acceptable, Realistic, Time-limited)",
   "Weight": 50,
-  "Sequence": 3
+  "Sequence": 3,
+  "Advies 8 -10": "Your expertise is widely recognized. Consider writing articles or books on sector analysis and logistical chain management to share your insights with a broader audience. Take part in industry conferences as a speaker."
  },
  {
   "Main Group": "COMMERCIAL",
@@ -37,7 +66,8 @@
   "Question": "I know almost all clients of Quince, meaning that I know what sort of organisations they are, which interests are at stake internally and externally, which mutual relations exist, and which strategy the clients pursue in the market.",
   "Description": "I know almost all clients of Quince meaning that I know what sort of organisations they are, which interests are at stake internally and externally, which mutual relations exist, and which strategy the clients pursue on the market.",
   "Weight": 50,
-  "Sequence": 4
+  "Sequence": 4,
+  "Advies 8 -10": "You are at the pinnacle of your field. Focus on shaping the future of sector analysis by contributing to thought leadership, advising top-tier stakeholders, and nurturing the next generation of sector analysts."
  },
  {
   "Main Group": "COMMERCIAL",

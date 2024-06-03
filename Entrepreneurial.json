@@ -1,10 +1,102 @@
-{"Main Group":"ENTREPRENEURIAL","Sub Group":"Show dedication","ID":38,"Name":"Take initiative","Question":"I always take the initiative and mostly take action as the first person in order to get something done.","Description":"I always take the initiative and mostly take action as the first person in order to get something done.","Weight":50,"Sequence":37,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"ENTREPRENEURIAL","Sub Group":"Show dedication","ID":39,"Name":"Act pro-actively","Question":"I don't wait until something happens, I prevent something from (not) happening.","Description":"I don't wait until something happens, I prevent something from (not) happening","Weight":50,"Sequence":38,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"ENTREPRENEURIAL","Sub Group":"Show dedication","ID":40,"Name":"Appear energetic","Question":"Mostly, I am both mentally and physically energetically present at work and try to achieve the maximum.","Description":"Mostly, I am both mentally and physically energetically present at work and try to achieve the maximum","Weight":50,"Sequence":39,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"ENTREPRENEURIAL","Sub Group":"Show dedication","ID":41,"Name":"Do","Question":"I never lag behind in a discussion or with a body of ideas, but quickly transfer talking and thinking into actions.","Description":"I never lag behind in a discussion or at a body of ideas, but quickly transfer talking and thinking into actions","Weight":50,"Sequence":40,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"ENTREPRENEURIAL","Sub Group":"Work in an enterprising way","ID":42,"Name":"Take responsibility","Question":"I see to it that (my own and others') agreements are complied with and make decisions to the best of my knowledge and skills if necessary, since I regard myself as responsible for my work","Description":"I see to it that (my own and others') agreements are complied with and make decisions to the best of my knowledge and skills if necessary, since I regard myself as responsible for my work","Weight":50,"Sequence":41,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"ENTREPRENEURIAL","Sub Group":"Work in an enterprising way","ID":43,"Name":"Have and pursue ambitions","Question":"I do things in view of a personal and commercial long-term final objective and tune my actions and decisions to that.","Description":"I do things in view of a personal and commercial long-term final objective and tune my actions and decisions to that.","Weight":50,"Sequence":42,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"ENTREPRENEURIAL","Sub Group":"Work in an enterprising way","ID":44,"Name":"Dear to take risks","Question":"I dare to take a risk without the certainty of success as well since this feels good. In that, I visualise that as long as I act to the best of my skills and knowledge, I am doing things well.","Description":"I dare to take a risk without the certainty of success as well since this feels good. At that, I visualise that as long as I act to the best of my skills and knowledge, I am doing things well.","Weight":50,"Sequence":43,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"ENTREPRENEURIAL","Sub Group":"Development capacity","ID":45,"Name":"Self-knowledge","Question":"I know what my strong and weak points are.","Description":"I know what my strong and weak points are.","Weight":50,"Sequence":44,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"ENTREPRENEURIAL","Sub Group":"Development capacity","ID":46,"Name":"Self-development","Question":"Based on my self-knowledge I continuously take actions in order to further develop my knowledge and skills with regard to my ambitions, my commercial tasks package and my responsibilities","Description":"Based on my self-knowledge I continuously take actions in order to further develop my knowledge and skills with regard to my ambitions, my commercial tasks package and my responsibilities","Weight":50,"Sequence":45,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"ENTREPRENEURIAL","Sub Group":"Development capacity","ID":47,"Name":"Self-directing","Question":"I can give myself a boost (motivate) in order to achieve results or make expectations come true","Description":"I can give myself a boost (motivate) in order to achieve results or make expectations come true","Weight":50,"Sequence":46,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
+[
+ {
+  "Main Group": "ENTREPRENEURIAL",
+  "Sub Group": "Show dedication",
+  "ID": 38,
+  "Name": "Take initiative",
+  "Question": "I always take the initiative and mostly take action as the first person in order to get something done.",
+  "Description": "I always take the initiative and mostly take action as the first person in order to get something done.",
+  "Weight": 50,
+  "Sequence": 37
+ },
+ {
+  "Main Group": "ENTREPRENEURIAL",
+  "Sub Group": "Show dedication",
+  "ID": 39,
+  "Name": "Act pro-actively",
+  "Question": "I don't wait until something happens, I prevent something from (not) happening.",
+  "Description": "I don't wait until something happens, I prevent something from (not) happening",
+  "Weight": 50,
+  "Sequence": 38
+ },
+ {
+  "Main Group": "ENTREPRENEURIAL",
+  "Sub Group": "Show dedication",
+  "ID": 40,
+  "Name": "Appear energetic",
+  "Question": "Mostly, I am both mentally and physically energetically present at work and try to achieve the maximum.",
+  "Description": "Mostly, I am both mentally and physically energetically present at work and try to achieve the maximum",
+  "Weight": 50,
+  "Sequence": 39
+ },
+ {
+  "Main Group": "ENTREPRENEURIAL",
+  "Sub Group": "Show dedication",
+  "ID": 41,
+  "Name": "Do",
+  "Question": "I never lag behind in a discussion or with a body of ideas, but quickly transfer talking and thinking into actions.",
+  "Description": "I never lag behind in a discussion or at a body of ideas, but quickly transfer talking and thinking into actions",
+  "Weight": 50,
+  "Sequence": 40
+ },
+ {
+  "Main Group": "ENTREPRENEURIAL",
+  "Sub Group": "Work in an enterprising way",
+  "ID": 42,
+  "Name": "Take responsibility",
+  "Question": "I see to it that (my own and others') agreements are complied with and make decisions to the best of my knowledge and skills if necessary, since I regard myself as responsible for my work",
+  "Description": "I see to it that (my own and others') agreements are complied with and make decisions to the best of my knowledge and skills if necessary, since I regard myself as responsible for my work",
+  "Weight": 50,
+  "Sequence": 41
+ },
+ {
+  "Main Group": "ENTREPRENEURIAL",
+  "Sub Group": "Work in an enterprising way",
+  "ID": 43,
+  "Name": "Have and pursue ambitions",
+  "Question": "I do things in view of a personal and commercial long-term final objective and tune my actions and decisions to that.",
+  "Description": "I do things in view of a personal and commercial long-term final objective and tune my actions and decisions to that.",
+  "Weight": 50,
+  "Sequence": 42
+ },
+ {
+  "Main Group": "ENTREPRENEURIAL",
+  "Sub Group": "Work in an enterprising way",
+  "ID": 44,
+  "Name": "Dear to take risks",
+  "Question": "I dare to take a risk without the certainty of success as well since this feels good. In that, I visualise that as long as I act to the best of my skills and knowledge, I am doing things well.",
+  "Description": "I dare to take a risk without the certainty of success as well since this feels good. At that, I visualise that as long as I act to the best of my skills and knowledge, I am doing things well.",
+  "Weight": 50,
+  "Sequence": 43
+ },
+ {
+  "Main Group": "ENTREPRENEURIAL",
+  "Sub Group": "Development capacity",
+  "ID": 45,
+  "Name": "Self-knowledge",
+  "Question": "I know what my strong and weak points are.",
+  "Description": "I know what my strong and weak points are.",
+  "Weight": 50,
+  "Sequence": 44
+ },
+ {
+  "Main Group": "ENTREPRENEURIAL",
+  "Sub Group": "Development capacity",
+  "ID": 46,
+  "Name": "Self-development",
+  "Question": "Based on my self-knowledge I continuously take actions in order to further develop my knowledge and skills with regard to my ambitions, my commercial tasks package and my responsibilities",
+  "Description": "Based on my self-knowledge I continuously take actions in order to further develop my knowledge and skills with regard to my ambitions, my commercial tasks package and my responsibilities",
+  "Weight": 50,
+  "Sequence": 45
+ },
+ {
+  "Main Group": "ENTREPRENEURIAL",
+  "Sub Group": "Development capacity",
+  "ID": 47,
+  "Name": "Self-directing",
+  "Question": "I can give myself a boost (motivate) in order to achieve results or make expectations come true",
+  "Description": "I can give myself a boost (motivate) in order to achieve results or make expectations come true",
+  "Weight": 50,
+  "Sequence": 46
+ }
+]

@@ -1,9 +1,92 @@
-{"Main Group":"LEADERSHIP","Sub Group":"Developing employees","ID":73,"Name":"Motivate\/stimulate","Question":"I motivate and stimulate others by providing them with feedback on which issues they can improve in view of personal and\/or commercial development","Description":"I motivate and stimulate others by providing them with feedback on which issues they can improve in view of personal and\/or commercial development","Weight":50,"Sequence":72,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"LEADERSHIP","Sub Group":"Developing employees","ID":74,"Name":"Coach","Question":"I help others along in order to achieve their goal.","Description":"I help others along in order to achieve their goal.","Weight":50,"Sequence":73,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"LEADERSHIP","Sub Group":"Developing employees","ID":75,"Name":"Being mentor","Question":"I actively keep myself busy in order to pass on knowledge in my field of expertise to colleagues, because of which they can carry out or approach activities better.","Description":"I actively keep myself busy in order to pass on knowledge on my field of expertise to colleagues, because of which they can carry out or approach activities better.","Weight":50,"Sequence":74,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"LEADERSHIP","Sub Group":"Developing employees","ID":76,"Name":"Manage individual-oriented","Question":"I tune my way of directing and communication to how the person is.","Description":"I tune my way of directing and communication to how the person is.","Weight":50,"Sequence":75,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"LEADERSHIP","Sub Group":"Direct","ID":77,"Name":"Have and propagate vision","Question":"Based on my experience, knowledge, skills and understanding I have an image of the future for Quince and\/or its activities and can propagate them in a well-founded way.","Description":"Based on my experience, knowledge, skills and understanding I have an image of the future for X and\/or its activities and can propagate them well-founded.","Weight":50,"Sequence":76,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"LEADERSHIP","Sub Group":"Direct","ID":78,"Name":"Being an example for others","Question":"I always set the right example.","Description":"I always set the right example","Weight":50,"Sequence":77,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"LEADERSHIP","Sub Group":"Direct","ID":79,"Name":"Take decisions","Question":"Upon ample consideration and\/or consultations I can timely make decisions by taking actions or expressing points of view.","Description":"The extent to which someone timely and upon ample consideration and\/or consultations takes decisions by taking actions or expressing points of view","Weight":50,"Sequence":78,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"LEADERSHIP","Sub Group":"Dominate","ID":81,"Name":"Act authoritative","Question":"In order to get things done I can make use of my attitude and radiation, because of which I am accepted as authority. Based on my knowledge, position or attitude I can get things done and as a result of that I am accepted as authority.","Description":"In order to get things done I can make use of my attitude and radiation, because of which I am accepted as authority. Based on my knowledge, position or attitude I can get things done and as a result of that I am accepted as authority.","Weight":50,"Sequence":80,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"LEADERSHIP","Sub Group":"Dominate","ID":80,"Name":"Act charismatically","Question":"By nature I can exert influence on others because of my positive radiation and personality, and be accepted as authority.","Description":"By nature I can exert influence on others because of my positive radiation and personality and be accepted as authority.","Weight":50,"Sequence":81,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
+[
+ {
+  "Main Group": "LEADERSHIP",
+  "Sub Group": "Developing employees",
+  "ID": 73,
+  "Name": "Motivate\/stimulate",
+  "Question": "I motivate and stimulate others by providing them with feedback on which issues they can improve in view of personal and\/or commercial development",
+  "Description": "I motivate and stimulate others by providing them with feedback on which issues they can improve in view of personal and\/or commercial development",
+  "Weight": 50,
+  "Sequence": 72
+ },
+ {
+  "Main Group": "LEADERSHIP",
+  "Sub Group": "Developing employees",
+  "ID": 74,
+  "Name": "Coach",
+  "Question": "I help others along in order to achieve their goal.",
+  "Description": "I help others along in order to achieve their goal.",
+  "Weight": 50,
+  "Sequence": 73
+ },
+ {
+  "Main Group": "LEADERSHIP",
+  "Sub Group": "Developing employees",
+  "ID": 75,
+  "Name": "Being mentor",
+  "Question": "I actively keep myself busy in order to pass on knowledge in my field of expertise to colleagues, because of which they can carry out or approach activities better.",
+  "Description": "I actively keep myself busy in order to pass on knowledge on my field of expertise to colleagues, because of which they can carry out or approach activities better.",
+  "Weight": 50,
+  "Sequence": 74
+ },
+ {
+  "Main Group": "LEADERSHIP",
+  "Sub Group": "Developing employees",
+  "ID": 76,
+  "Name": "Manage individual-oriented",
+  "Question": "I tune my way of directing and communication to how the person is.",
+  "Description": "I tune my way of directing and communication to how the person is.",
+  "Weight": 50,
+  "Sequence": 75
+ },
+ {
+  "Main Group": "LEADERSHIP",
+  "Sub Group": "Direct",
+  "ID": 77,
+  "Name": "Have and propagate vision",
+  "Question": "Based on my experience, knowledge, skills and understanding I have an image of the future for Quince and\/or its activities and can propagate them in a well-founded way.",
+  "Description": "Based on my experience, knowledge, skills and understanding I have an image of the future for X and\/or its activities and can propagate them well-founded.",
+  "Weight": 50,
+  "Sequence": 76
+ },
+ {
+  "Main Group": "LEADERSHIP",
+  "Sub Group": "Direct",
+  "ID": 78,
+  "Name": "Being an example for others",
+  "Question": "I always set the right example.",
+  "Description": "I always set the right example",
+  "Weight": 50,
+  "Sequence": 77
+ },
+ {
+  "Main Group": "LEADERSHIP",
+  "Sub Group": "Direct",
+  "ID": 79,
+  "Name": "Take decisions",
+  "Question": "Upon ample consideration and\/or consultations I can timely make decisions by taking actions or expressing points of view.",
+  "Description": "The extent to which someone timely and upon ample consideration and\/or consultations takes decisions by taking actions or expressing points of view",
+  "Weight": 50,
+  "Sequence": 78
+ },
+ {
+  "Main Group": "LEADERSHIP",
+  "Sub Group": "Dominate",
+  "ID": 81,
+  "Name": "Act authoritative",
+  "Question": "In order to get things done I can make use of my attitude and radiation, because of which I am accepted as authority. Based on my knowledge, position or attitude I can get things done and as a result of that I am accepted as authority.",
+  "Description": "In order to get things done I can make use of my attitude and radiation, because of which I am accepted as authority. Based on my knowledge, position or attitude I can get things done and as a result of that I am accepted as authority.",
+  "Weight": 50,
+  "Sequence": 80
+ },
+ {
+  "Main Group": "LEADERSHIP",
+  "Sub Group": "Dominate",
+  "ID": 80,
+  "Name": "Act charismatically",
+  "Question": "By nature I can exert influence on others because of my positive radiation and personality, and be accepted as authority.",
+  "Description": "By nature I can exert influence on others because of my positive radiation and personality and be accepted as authority.",
+  "Weight": 50,
+  "Sequence": 81
+ }
+]

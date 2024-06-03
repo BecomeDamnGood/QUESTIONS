@@ -1,10 +1,92 @@
-{"Main Group":"GRAPHICAL","Sub Group":"Image and image creation","ID":90,"Name":"Typography knowledge of fonts, application, etc.","Question":"I have an eye for graphical compositions, proportions and typography within a design.","Description":null,"Weight":50,"Sequence":9,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"GRAPHICAL","Sub Group":"Image and image creation","ID":91,"Name":"Photography","Question":"I can handle both a (digital) photo camera and lighting and take a picture that expresses what I have in mind.","Description":null,"Weight":50,"Sequence":10,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"GRAPHICAL","Sub Group":"Image and image creation","ID":92,"Name":"Retouch","Question":"I know how to realistically modify pictures in such a way that the viewer does not see my input or modifications.","Description":null,"Weight":50,"Sequence":11,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"GRAPHICAL","Sub Group":"Image and image creation","ID":93,"Name":"Think DTP","Question":"Based on an existing design or modifications of a designer I can quickly visualise or formulate an image, set up and implement patterns in which I am consistent in form and composition","Description":null,"Weight":50,"Sequence":12,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"GRAPHICAL","Sub Group":"Image and image creation","ID":94,"Name":"Adobe CS2 and Illustrator CS","Question":"Package knowledge of Adobe CS2 and Photoshop C and Illustrator CS and Design Setup","Description":null,"Weight":50,"Sequence":13,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"GRAPHICAL","Sub Group":"Animation","ID":95,"Name":"Macromedia Director MX","Question":"Package knowledge Macromedia Director MX","Description":null,"Weight":50,"Sequence":14,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"GRAPHICAL","Sub Group":"Animation","ID":96,"Name":"Macromedia Dreamweaver","Question":"Package knowledge Macromedia Dreamweaver.","Description":null,"Weight":50,"Sequence":15,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"GRAPHICAL","Sub Group":"Animation","ID":97,"Name":"Video animation and after effect Adobe","Question":"Package skills Video Animation and after effect Adobe","Description":null,"Weight":50,"Sequence":16,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"GRAPHICAL","Sub Group":"Animation","ID":98,"Name":"3D animation and Maya","Question":"Package skills 3D animation and Maya","Description":null,"Weight":50,"Sequence":17,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"GRAPHICAL","Sub Group":"Animation","ID":99,"Name":"Flash animation: Macromedia Flash","Question":"Package skills Flash animation: Macromedia Flash package","Description":null,"Weight":50,"Sequence":18,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
+[
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Image and image creation",
+  "ID": 90,
+  "Name": "Typography knowledge of fonts, application, etc.",
+  "Question": "I have an eye for graphical compositions, proportions and typography within a design.",
+  "Weight": 50,
+  "Sequence": 9
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Image and image creation",
+  "ID": 91,
+  "Name": "Photography",
+  "Question": "I can handle both a (digital) photo camera and lighting and take a picture that expresses what I have in mind.",
+  "Weight": 50,
+  "Sequence": 10
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Image and image creation",
+  "ID": 92,
+  "Name": "Retouch",
+  "Question": "I know how to realistically modify pictures in such a way that the viewer does not see my input or modifications.",
+  "Weight": 50,
+  "Sequence": 11
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Image and image creation",
+  "ID": 93,
+  "Name": "Think DTP",
+  "Question": "Based on an existing design or modifications of a designer I can quickly visualise or formulate an image, set up and implement patterns in which I am consistent in form and composition",
+  "Weight": 50,
+  "Sequence": 12
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Image and image creation",
+  "ID": 94,
+  "Name": "Adobe CS2 and Illustrator CS",
+  "Question": "Package knowledge of Adobe CS2 and Photoshop C and Illustrator CS and Design Setup",
+  "Weight": 50,
+  "Sequence": 13
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Animation",
+  "ID": 95,
+  "Name": "Macromedia Director MX",
+  "Question": "Package knowledge Macromedia Director MX",
+  "Weight": 50,
+  "Sequence": 14
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Animation",
+  "ID": 96,
+  "Name": "Macromedia Dreamweaver",
+  "Question": "Package knowledge Macromedia Dreamweaver.",
+  "Weight": 50,
+  "Sequence": 15
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Animation",
+  "ID": 97,
+  "Name": "Video animation and after effect Adobe",
+  "Question": "Package skills Video Animation and after effect Adobe",
+  "Weight": 50,
+  "Sequence": 16
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Animation",
+  "ID": 98,
+  "Name": "3D animation and Maya",
+  "Question": "Package skills 3D animation and Maya",
+  "Weight": 50,
+  "Sequence": 17
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Animation",
+  "ID": 99,
+  "Name": "Flash animation: Macromedia Flash",
+  "Question": "Package skills Flash animation: Macromedia Flash package",
+  "Weight": 50,
+  "Sequence": 18
+ }
+]

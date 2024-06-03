@@ -1,8 +1,82 @@
-{"Main Group":"SOCIAL","Sub Group":"Be socially aware","ID":55,"Name":"Environment-awareness (external)","Question":"I regularly stay informed on what happens in society by reading (news) magazines, following current events, or actively participating in cultural or social events","Description":"I regularly stay informed on what happens in society by reading (news) magazines, following current events, or actively participating in cultural or social events","Weight":50,"Sequence":54,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"SOCIAL","Sub Group":"Be socially aware","ID":56,"Name":"Take up social activities","Question":"During my leisure time I participate in voluntary work or actively devote myself in order to give others a better life. I actively contribute to society.","Description":"During my leisure time I participate in voluntary work or actively devote myself to in order to give others a better life. I actively contribute to society.","Weight":50,"Sequence":55,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"SOCIAL","Sub Group":"Act socially","ID":57,"Name":"Sociability","Question":"I feel pleasant in the company of others and always meet new people with whom I can easily get along.","Description":"I feel pleasant in the company of others and always meet new people with whom I can easily get along.","Weight":50,"Sequence":56,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"SOCIAL","Sub Group":"Act socially","ID":58,"Name":"Sensitivity","Question":"I am aware of the fact that I am not alone on this earth, that others in my environment (can) have other feelings and needs, and pay attention to that.","Description":"I am aware of the fact that I am not alone on this earth, that others in my environment (can) have other feelings and needs, and pay attention to that.","Weight":50,"Sequence":57,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"SOCIAL","Sub Group":"Act socially","ID":59,"Name":"Positive attitude","Question":"For me a glass of water is mostly half-full instead of half-empty.","Description":"For me a glass of water is mostly half-full instead of half-empty.","Weight":50,"Sequence":58,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"SOCIAL","Sub Group":"Show respect","ID":60,"Name":"Integrity","Question":"I am open and honest and will not harm interests or feelings of people by acting or expressing opinions that are against my principles or others' feelings. I am honest and put all my cards on the table towards everyone, because of which I will not lie, cheat or act against my own principles.","Description":"I am open and honest and will not harm interests or feelings of people by acting or expressing opinions that are against my principles or others' feelings. I am honest and put all my cards on the table towards everyone, because of which I will not lie, cheat or act against my own principles.","Weight":50,"Sequence":59,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"SOCIAL","Sub Group":"Show respect","ID":61,"Name":"Loyalty","Question":"I am loyal to the responsibilities and tasks that the organisation entrusts me with and therefore to Quince.","Description":"I am loyal to the responsibilities and tasks that the organisation entrusts me with and therefore to X.","Weight":50,"Sequence":60,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"SOCIAL","Sub Group":"Show respect","ID":62,"Name":"Watch, listen to and acceptance of colleagues","Question":"Although all my colleagues are different from me (ideas, opinions, behaviour), I still value them for who they are and therefore have a good contact with them.","Description":"Although all my colleagues are different from me (ideas, opinions, behaviour), I still value them for who they are and therefore have a good contact with them.","Weight":50,"Sequence":61,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
+[
+ {
+  "Main Group": "SOCIAL",
+  "Sub Group": "Be socially aware",
+  "ID": 55,
+  "Name": "Environment-awareness (external)",
+  "Question": "I regularly stay informed on what happens in society by reading (news) magazines, following current events, or actively participating in cultural or social events",
+  "Description": "I regularly stay informed on what happens in society by reading (news) magazines, following current events, or actively participating in cultural or social events",
+  "Weight": 50,
+  "Sequence": 54
+ },
+ {
+  "Main Group": "SOCIAL",
+  "Sub Group": "Be socially aware",
+  "ID": 56,
+  "Name": "Take up social activities",
+  "Question": "During my leisure time I participate in voluntary work or actively devote myself in order to give others a better life. I actively contribute to society.",
+  "Description": "During my leisure time I participate in voluntary work or actively devote myself to in order to give others a better life. I actively contribute to society.",
+  "Weight": 50,
+  "Sequence": 55
+ },
+ {
+  "Main Group": "SOCIAL",
+  "Sub Group": "Act socially",
+  "ID": 57,
+  "Name": "Sociability",
+  "Question": "I feel pleasant in the company of others and always meet new people with whom I can easily get along.",
+  "Description": "I feel pleasant in the company of others and always meet new people with whom I can easily get along.",
+  "Weight": 50,
+  "Sequence": 56
+ },
+ {
+  "Main Group": "SOCIAL",
+  "Sub Group": "Act socially",
+  "ID": 58,
+  "Name": "Sensitivity",
+  "Question": "I am aware of the fact that I am not alone on this earth, that others in my environment (can) have other feelings and needs, and pay attention to that.",
+  "Description": "I am aware of the fact that I am not alone on this earth, that others in my environment (can) have other feelings and needs, and pay attention to that.",
+  "Weight": 50,
+  "Sequence": 57
+ },
+ {
+  "Main Group": "SOCIAL",
+  "Sub Group": "Act socially",
+  "ID": 59,
+  "Name": "Positive attitude",
+  "Question": "For me a glass of water is mostly half-full instead of half-empty.",
+  "Description": "For me a glass of water is mostly half-full instead of half-empty.",
+  "Weight": 50,
+  "Sequence": 58
+ },
+ {
+  "Main Group": "SOCIAL",
+  "Sub Group": "Show respect",
+  "ID": 60,
+  "Name": "Integrity",
+  "Question": "I am open and honest and will not harm interests or feelings of people by acting or expressing opinions that are against my principles or others' feelings. I am honest and put all my cards on the table towards everyone, because of which I will not lie, cheat or act against my own principles.",
+  "Description": "I am open and honest and will not harm interests or feelings of people by acting or expressing opinions that are against my principles or others' feelings. I am honest and put all my cards on the table towards everyone, because of which I will not lie, cheat or act against my own principles.",
+  "Weight": 50,
+  "Sequence": 59
+ },
+ {
+  "Main Group": "SOCIAL",
+  "Sub Group": "Show respect",
+  "ID": 61,
+  "Name": "Loyalty",
+  "Question": "I am loyal to the responsibilities and tasks that the organisation entrusts me with and therefore to Quince.",
+  "Description": "I am loyal to the responsibilities and tasks that the organisation entrusts me with and therefore to X.",
+  "Weight": 50,
+  "Sequence": 60
+ },
+ {
+  "Main Group": "SOCIAL",
+  "Sub Group": "Show respect",
+  "ID": 62,
+  "Name": "Watch, listen to and acceptance of colleagues",
+  "Question": "Although all my colleagues are different from me (ideas, opinions, behaviour), I still value them for who they are and therefore have a good contact with them.",
+  "Description": "Although all my colleagues are different from me (ideas, opinions, behaviour), I still value them for who they are and therefore have a good contact with them.",
+  "Weight": 50,
+  "Sequence": 61
+ }
+]

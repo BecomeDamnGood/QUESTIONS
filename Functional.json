@@ -1,17 +1,503 @@
-{"Main Group":"FUNCTIONAL","Sub Group":"Task-oriented knowledge and skills","ID":21,"Name":"Strategic advising within retail\/vendors","Question":"I can provide thorough strategic advice and the client listens to me in that.","Description":"I can provide a thorough strategic advice and the client listens to me at that.","Weight":50,"Sequence":20,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Task-oriented knowledge and skills","ID":22,"Name":"Perform client-oriented","Question":"I can provide a company-wide and founded presentation of work, opinions or a strategy to a variety of clients","Description":"I can provide a company-wide and founded presentation of work, opinions or a strategy to a variety of clients","Weight":50,"Sequence":21,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Task-oriented knowledge and skills","ID":23,"Name":"Maintain contacts with clients","Question":"With regard to commercial content and as a human being I can build up and maintain pleasant relations with a variety of clients.","Description":"With regard to commercial contents and as a human being I can build up and maintain pleasant relations with a variety of clients.","Weight":50,"Sequence":22,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Have and show discipline","ID":24,"Name":"Work neatly and deal with materials","Question":"I always see to it that my work and working methods are neat and that my working environment is cared-for.","Description":"I always see to it that my work and working method are neat and that my working environment is cared-for.","Weight":50,"Sequence":23,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Have and show discipline","ID":25,"Name":"Can deal with details","Question":"I have an eye for details and always give them attention.","Description":"I have an eye for details and always give them attention.","Weight":50,"Sequence":24,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Have and show discipline","ID":26,"Name":"Perseverance: continuously show effort","Question":"I continue until I have achieved what I must do or have intended to do.","Description":"I continue until I have achieved what I must do or have intended to do.","Weight":50,"Sequence":25,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Have and show discipline","ID":27,"Name":"Be consequent, perseverance","Question":"One can always count on me since I keep the agreements I have made with myself or with others.","Description":"One can always count on my since I keep the agreements I made with myself or with others.","Weight":50,"Sequence":26,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Achieve functional result (executive)","ID":28,"Name":"Collaborate","Question":"I can collaborate pleasantly with various colleagues, and because of that I know how to improve the final result.","Description":"I can collaborate pleasantly with various colleagues, and because of that I know how to improve the final result.","Weight":50,"Sequence":27,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Achieve functional result (executive)","ID":29,"Name":"Able to adapt oneself","Question":"I can quickly adapt myself if, during an assignment, the criteria, the assignment itself, or a complete briefing change without having any influence on that myself","Description":"I can quickly adapt myself if during an assignment criteria, the assignment itself, or a complete briefing change without having any influence on that myself.","Weight":50,"Sequence":28,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Achieve functional result (executive)","ID":30,"Name":"Think and work company-oriented","Question":"I find it more important that the client or the Quince organisation is satisfied than that I get what I want.","Description":"I find it more important that the client or the organisation X is satisfied than that I get what I want.","Weight":50,"Sequence":29,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Achieve functional result (executive)","ID":31,"Name":"Can work methodically","Question":"I can think in phases and work in terms of start-up, lead time, and completion (done but also completed) of an assignment, and always act on this.","Description":"I can think in phases and work in terms of start-up, lead time, and completion (done but also completed) of an assignment and always act on this.","Weight":50,"Sequence":30,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Achieve functional result (executive)","ID":32,"Name":"Excellence: good is not good enough","Question":"If an assignment is ready I even do a little extra by at least checking all the details and research for points of improvement which I can implement within a reasonable period of time","Description":"If an assignment is ready I even do a little extra by at least checking all the details and research for points of improvement which I can implement within a reasonable period of time.","Weight":50,"Sequence":31,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Achieve functional result (executive)","ID":33,"Name":"Can use representative manners","Question":"I adjust my clothes, attitude and behaviour if the situation and\/or the company I am with requires such","Description":"I adjust my clothes, attitude and behaviour if the situation and\/or company I am with requires so.","Weight":50,"Sequence":32,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Show decisiveness","ID":34,"Name":"Self-employability","Question":"Without anyone having to tell me this, I do my work, and in case of being under-occupied I make sure that I find and pick up new activities.","Description":"Without anyone having to tell me this, I do my work and in case of under load I see to it that I find and pick up new activities.","Weight":50,"Sequence":33,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Show decisiveness","ID":35,"Name":"Can switch fast","Question":"I can quickly think about one assignment after another, understand the context and assignment, and translate this into goal-oriented actions.","Description":"I can quickly think about one assignment after the other, understand the context and assignment, and translate this into goal-oriented actions","Weight":50,"Sequence":34,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Show decisiveness","ID":36,"Name":"Can act flexibly","Question":"I realise that within Quince assignments, procedures and situations can change, focus myself on that, can easily adapt myself to that, and know how to keep acting in the interests of the objective.","Description":"I realise that within X assignments, procedures and situations can change, focus myself on that, can easily adapt myself to that, and know how to keep acting in the interests of the objective.","Weight":50,"Sequence":35,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
-{"Main Group":"FUNCTIONAL","Sub Group":"Show decisiveness","ID":37,"Name":"Perform under pressure\/immune to stress","Question":"I don't allow myself to be distracted by unexpected issues, work overload or time pressure.","Description":"I don't let myself distracted by unexpected issues, work overload or time pressure","Weight":50,"Sequence":36,"Advies 1-4":null,"Advies 5-6":null,"Advies 7":null,"Advies 8 -10":null}
+{
+"Soft Skills EN":[
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Task-oriented knowledge and skills",
+  "ID": 21,
+  "Name": "Strategic advising within retail\/vendors",
+  "Question": "I can provide thorough strategic advice and the client listens to me in that.",
+  "Description": "I can provide a thorough strategic advice and the client listens to me at that.",
+  "Weight": 50,
+  "Sequence": 20
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Task-oriented knowledge and skills",
+  "ID": 22,
+  "Name": "Perform client-oriented",
+  "Question": "I can provide a company-wide and founded presentation of work, opinions or a strategy to a variety of clients",
+  "Description": "I can provide a company-wide and founded presentation of work, opinions or a strategy to a variety of clients",
+  "Weight": 50,
+  "Sequence": 21
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Task-oriented knowledge and skills",
+  "ID": 23,
+  "Name": "Maintain contacts with clients",
+  "Question": "With regard to commercial content and as a human being I can build up and maintain pleasant relations with a variety of clients.",
+  "Description": "With regard to commercial contents and as a human being I can build up and maintain pleasant relations with a variety of clients.",
+  "Weight": 50,
+  "Sequence": 22
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Have and show discipline",
+  "ID": 24,
+  "Name": "Work neatly and deal with materials",
+  "Question": "I always see to it that my work and working methods are neat and that my working environment is cared-for.",
+  "Description": "I always see to it that my work and working method are neat and that my working environment is cared-for.",
+  "Weight": 50,
+  "Sequence": 23
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Have and show discipline",
+  "ID": 25,
+  "Name": "Can deal with details",
+  "Question": "I have an eye for details and always give them attention.",
+  "Description": "I have an eye for details and always give them attention.",
+  "Weight": 50,
+  "Sequence": 24
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Have and show discipline",
+  "ID": 26,
+  "Name": "Perseverance: continuously show effort",
+  "Question": "I continue until I have achieved what I must do or have intended to do.",
+  "Description": "I continue until I have achieved what I must do or have intended to do.",
+  "Weight": 50,
+  "Sequence": 25
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Have and show discipline",
+  "ID": 27,
+  "Name": "Be consequent, perseverance",
+  "Question": "One can always count on me since I keep the agreements I have made with myself or with others.",
+  "Description": "One can always count on my since I keep the agreements I made with myself or with others.",
+  "Weight": 50,
+  "Sequence": 26
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Achieve functional result (executive)",
+  "ID": 28,
+  "Name": "Collaborate",
+  "Question": "I can collaborate pleasantly with various colleagues, and because of that I know how to improve the final result.",
+  "Description": "I can collaborate pleasantly with various colleagues, and because of that I know how to improve the final result.",
+  "Weight": 50,
+  "Sequence": 27
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Achieve functional result (executive)",
+  "ID": 29,
+  "Name": "Able to adapt oneself",
+  "Question": "I can quickly adapt myself if, during an assignment, the criteria, the assignment itself, or a complete briefing change without having any influence on that myself",
+  "Description": "I can quickly adapt myself if during an assignment criteria, the assignment itself, or a complete briefing change without having any influence on that myself.",
+  "Weight": 50,
+  "Sequence": 28
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Achieve functional result (executive)",
+  "ID": 30,
+  "Name": "Think and work company-oriented",
+  "Question": "I find it more important that the client or the Quince organisation is satisfied than that I get what I want.",
+  "Description": "I find it more important that the client or the organisation X is satisfied than that I get what I want.",
+  "Weight": 50,
+  "Sequence": 29
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Achieve functional result (executive)",
+  "ID": 31,
+  "Name": "Can work methodically",
+  "Question": "I can think in phases and work in terms of start-up, lead time, and completion (done but also completed) of an assignment, and always act on this.",
+  "Description": "I can think in phases and work in terms of start-up, lead time, and completion (done but also completed) of an assignment and always act on this.",
+  "Weight": 50,
+  "Sequence": 30
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Achieve functional result (executive)",
+  "ID": 32,
+  "Name": "Excellence: good is not good enough",
+  "Question": "If an assignment is ready I even do a little extra by at least checking all the details and research for points of improvement which I can implement within a reasonable period of time",
+  "Description": "If an assignment is ready I even do a little extra by at least checking all the details and research for points of improvement which I can implement within a reasonable period of time.",
+  "Weight": 50,
+  "Sequence": 31
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Achieve functional result (executive)",
+  "ID": 33,
+  "Name": "Can use representative manners",
+  "Question": "I adjust my clothes, attitude and behaviour if the situation and\/or the company I am with requires such",
+  "Description": "I adjust my clothes, attitude and behaviour if the situation and\/or company I am with requires so.",
+  "Weight": 50,
+  "Sequence": 32
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Show decisiveness",
+  "ID": 34,
+  "Name": "Self-employability",
+  "Question": "Without anyone having to tell me this, I do my work, and in case of being under-occupied I make sure that I find and pick up new activities.",
+  "Description": "Without anyone having to tell me this, I do my work and in case of under load I see to it that I find and pick up new activities.",
+  "Weight": 50,
+  "Sequence": 33
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Show decisiveness",
+  "ID": 35,
+  "Name": "Can switch fast",
+  "Question": "I can quickly think about one assignment after another, understand the context and assignment, and translate this into goal-oriented actions.",
+  "Description": "I can quickly think about one assignment after the other, understand the context and assignment, and translate this into goal-oriented actions",
+  "Weight": 50,
+  "Sequence": 34
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Show decisiveness",
+  "ID": 36,
+  "Name": "Can act flexibly",
+  "Question": "I realise that within Quince assignments, procedures and situations can change, focus myself on that, can easily adapt myself to that, and know how to keep acting in the interests of the objective.",
+  "Description": "I realise that within X assignments, procedures and situations can change, focus myself on that, can easily adapt myself to that, and know how to keep acting in the interests of the objective.",
+  "Weight": 50,
+  "Sequence": 35
+ },
+ {
+  "Main Group": "FUNCTIONAL",
+  "Sub Group": "Show decisiveness",
+  "ID": 37,
+  "Name": "Perform under pressure\/immune to stress",
+  "Question": "I don't allow myself to be distracted by unexpected issues, work overload or time pressure.",
+  "Description": "I don't let myself distracted by unexpected issues, work overload or time pressure",
+  "Weight": 50,
+  "Sequence": 36
+ }
+],
+"Hard Skills EN":[
+ {
+  "Main Group": "STRATEGY",
+  "Sub Group": "Strategic account",
+  "ID": 82,
+  "Name": "Strategic advising within retail\/vendors",
+  "Question": "I can provide strategic advice and the client listens to me in that.",
+  "Description": "I can provide a strategic advice and the client listens to me at that.",
+  "Weight": 50,
+  "Sequence": 1
+ },
+ {
+  "Main Group": "STRATEGY",
+  "Sub Group": "Strategic account",
+  "ID": 83,
+  "Name": "Present (technique)",
+  "Question": "I can provide a founded presentation of work, opinions or a strategy to the client or within Quince.",
+  "Description": "I can provide a founded presentation of work, opinions or a strategy to the client or within X.",
+  "Weight": 50,
+  "Sequence": 2
+ },
+ {
+  "Main Group": "STRATEGY",
+  "Sub Group": "Strategic account",
+  "ID": 84,
+  "Name": "Contacts with clients",
+  "Question": "I can deal with a variety of clients.",
+  "Description": "I can deal with a variety of clients",
+  "Weight": 50,
+  "Sequence": 3
+ },
+ {
+  "Main Group": "STRATEGY",
+  "Sub Group": "Conceptualise",
+  "ID": 85,
+  "Name": "Concept methodical",
+  "Question": "I can think up and formulate a concept with the corresponding elements (such as way of communication or means), in which these add up or enhance each other.",
+  "Weight": 50,
+  "Sequence": 4
+ },
+ {
+  "Main Group": "STRATEGY",
+  "Sub Group": "Conceptualise",
+  "ID": 86,
+  "Name": "Concept graphical",
+  "Question": "Within a reasonable period of time I can come up completely independently with graphically supported solutions within a chosen concept, strategy or sub-strategy.",
+  "Weight": 50,
+  "Sequence": 5
+ },
+ {
+  "Main Group": "STRATEGY",
+  "Sub Group": "Conceptualise",
+  "ID": 87,
+  "Name": "Elaborate design",
+  "Question": "Within a reasonable period of time I can independently formulate and implement a chosen design into various ways and means.",
+  "Weight": 50,
+  "Sequence": 6
+ },
+ {
+  "Main Group": "STRATEGY",
+  "Sub Group": "Conceptualise",
+  "ID": 88,
+  "Name": "Concept Copy",
+  "Question": "I can come up with surprising, inspiring texts or textual approaches that enhance or pass on a message, concept, strategy or sub-strategy.",
+  "Weight": 50,
+  "Sequence": 7
+ },
+ {
+  "Main Group": "STRATEGY",
+  "Sub Group": "Conceptualise",
+  "ID": 89,
+  "Name": "Copy (body copy)",
+  "Question": "I can textually pass on a message.",
+  "Weight": 50,
+  "Sequence": 8
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Image and image creation",
+  "ID": 90,
+  "Name": "Typography knowledge of fonts, application, etc.",
+  "Question": "I have an eye for graphical compositions, proportions and typography within a design.",
+  "Weight": 50,
+  "Sequence": 9
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Image and image creation",
+  "ID": 91,
+  "Name": "Photography",
+  "Question": "I can handle both a (digital) photo camera and lighting and take a picture that expresses what I have in mind.",
+  "Weight": 50,
+  "Sequence": 10
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Image and image creation",
+  "ID": 92,
+  "Name": "Retouch",
+  "Question": "I know how to realistically modify pictures in such a way that the viewer does not see my input or modifications.",
+  "Weight": 50,
+  "Sequence": 11
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Image and image creation",
+  "ID": 93,
+  "Name": "Think DTP",
+  "Question": "Based on an existing design or modifications of a designer I can quickly visualise or formulate an image, set up and implement patterns in which I am consistent in form and composition",
+  "Weight": 50,
+  "Sequence": 12
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Image and image creation",
+  "ID": 94,
+  "Name": "Adobe CS2 and Illustrator CS",
+  "Question": "Package knowledge of Adobe CS2 and Photoshop C and Illustrator CS and Design Setup",
+  "Weight": 50,
+  "Sequence": 13
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Animation",
+  "ID": 95,
+  "Name": "Macromedia Director MX",
+  "Question": "Package knowledge Macromedia Director MX",
+  "Weight": 50,
+  "Sequence": 14
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Animation",
+  "ID": 96,
+  "Name": "Macromedia Dreamweaver",
+  "Question": "Package knowledge Macromedia Dreamweaver.",
+  "Weight": 50,
+  "Sequence": 15
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Animation",
+  "ID": 97,
+  "Name": "Video animation and after effect Adobe",
+  "Question": "Package skills Video Animation and after effect Adobe",
+  "Weight": 50,
+  "Sequence": 16
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Animation",
+  "ID": 98,
+  "Name": "3D animation and Maya",
+  "Question": "Package skills 3D animation and Maya",
+  "Weight": 50,
+  "Sequence": 17
+ },
+ {
+  "Main Group": "GRAPHICAL",
+  "Sub Group": "Animation",
+  "ID": 99,
+  "Name": "Flash animation: Macromedia Flash",
+  "Question": "Package skills Flash animation: Macromedia Flash package",
+  "Weight": 50,
+  "Sequence": 18
+ },
+ {
+  "Main Group": "DEVELOPMENT",
+  "Sub Group": "Front-end Development",
+  "ID": 100,
+  "Name": "Flash Development",
+  "Question": "Flash Development",
+  "Weight": 50,
+  "Sequence": 19
+ },
+ {
+  "Main Group": "DEVELOPMENT",
+  "Sub Group": "Front-end Development",
+  "ID": 101,
+  "Name": "Functional design",
+  "Question": "Functional design",
+  "Weight": 50,
+  "Sequence": 20
+ },
+ {
+  "Main Group": "DEVELOPMENT",
+  "Sub Group": "Back-end Development",
+  "ID": 102,
+  "Name": "Technical design",
+  "Question": "Technical design",
+  "Weight": 50,
+  "Sequence": 21
+ },
+ {
+  "Main Group": "DEVELOPMENT",
+  "Sub Group": "Back-end Development",
+  "ID": 103,
+  "Name": "Database",
+  "Question": "Database",
+  "Weight": 50,
+  "Sequence": 22
+ },
+ {
+  "Main Group": "DEVELOPMENT",
+  "Sub Group": "Back-end Development",
+  "ID": 105,
+  "Name": "Java script (1.5), J2EE\/JAVA",
+  "Question": "Java script (1.5), J2EE\/JAVA",
+  "Weight": 50,
+  "Sequence": 24
+ },
+ {
+  "Main Group": "DEVELOPMENT",
+  "Sub Group": "Back-end Development",
+  "ID": 106,
+  "Name": "PHP",
+  "Question": "PHP",
+  "Weight": 50,
+  "Sequence": 25
+ },
+ {
+  "Main Group": "DEVELOPMENT",
+  "Sub Group": "Back-end Development",
+  "ID": 107,
+  "Name": "HTML and CSS",
+  "Question": "HTML and CSS",
+  "Weight": 50,
+  "Sequence": 26
+ },
+ {
+  "Main Group": "DEVELOPMENT",
+  "Sub Group": "Back-end Development",
+  "ID": 108,
+  "Name": "XML and XPath",
+  "Question": "XML and XPath",
+  "Weight": 50,
+  "Sequence": 27
+ },
+ {
+  "Main Group": "ACCOUNT",
+  "Sub Group": "Finance",
+  "ID": 109,
+  "Name": "Accounting",
+  "Question": "I can read and understand a balance sheet and annual report, read financial prognoses, etc.",
+  "Weight": 50,
+  "Sequence": 28
+ },
+ {
+  "Main Group": "ACCOUNT",
+  "Sub Group": "Finance",
+  "ID": 110,
+  "Name": "Financial administration",
+  "Question": "I can enter and read out financial data.",
+  "Weight": 50,
+  "Sequence": 29
+ },
+ {
+  "Main Group": "ACCOUNT",
+  "Sub Group": "Project Management",
+  "ID": 111,
+  "Name": "Microsoft Office",
+  "Question": "Word, Excel, PowerPoint.",
+  "Weight": 50,
+  "Sequence": 30
+ },
+ {
+  "Main Group": "ACCOUNT",
+  "Sub Group": "Project Management",
+  "ID": 112,
+  "Name": "Budgeting",
+  "Question": "I can budget a project in advance, in which I take time, money, quality, uncertainties and the requirements and wishes of the client into account.",
+  "Weight": 50,
+  "Sequence": 31
+ },
+ {
+  "Main Group": "ACCOUNT",
+  "Sub Group": "Project Management",
+  "ID": 113,
+  "Name": "General planning",
+  "Question": "I can always assess well the time that I or others need, map the coherence between this and determine, monitor and meet deadlines.",
+  "Weight": 50,
+  "Sequence": 32
+ },
+ {
+  "Main Group": "ACCOUNT",
+  "Sub Group": "Project Management",
+  "ID": 114,
+  "Name": "Traffic and Purchase",
+  "Question": "I can supply the necessary goods or externally hired people at the right place and the right time, in which I always take price and quality into account.",
+  "Weight": 50,
+  "Sequence": 33
+ },
+ {
+  "Main Group": "ACCOUNT",
+  "Sub Group": "Project Management",
+  "ID": 115,
+  "Name": "Create project document",
+  "Question": "I can describe a project in a document including all relevant functions, description of concepts and formulations, in which that document suffices in order to implement the necessary working assignments, and can be distributed both internally and externally to clients",
+  "Weight": 50,
+  "Sequence": 34
+ },
+ {
+  "Main Group": "ACCOUNT",
+  "Sub Group": "Project Management",
+  "ID": 116,
+  "Name": "Verbal briefing",
+  "Question": "I can provide for a verbal briefing as a result of which the listeners know exactly what has to be carried out and which internal and external client expectations have to be complied with",
+  "Weight": 50,
+  "Sequence": 35
+ },
+ {
+  "Main Group": "ACCOUNT",
+  "Sub Group": "Project Management",
+  "ID": 117,
+  "Name": "Written briefing",
+  "Question": "On the basis of a project document or on the basis of input from the client or a colleague I can formulate a working assignment with all relevant information for the person (implementer) with which he\/she can carry out the activities independently",
+  "Weight": 50,
+  "Sequence": 36
+ },
+ {
+  "Main Group": "DEVELOPMENT",
+  "Sub Group": "Back-end Development",
+  "ID": 104,
+  "Name": "Delphi",
+  "Question": "Delphi",
+  "Weight": 50,
+  "Sequence": 37
+ }
+]
+}

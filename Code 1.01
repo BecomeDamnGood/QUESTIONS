@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360 Degree Skill Assessment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        #radarChart {
+            width: 100%;
+            height: 400px;
+        }
+        #advice-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background: white;
+            border: 1px solid #ccc;
+            z-index: 1000;
+        }
+        #advice-popup-close {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            cursor: pointer;
+            color: blue;
+        }
+        #progress {
+            margin-bottom: 20px;
+        }
+        #area-selection {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        #area-selection label {
+            margin-bottom: 5px;
+        }
+        #navigation button {
+            padding: 10px 20px;
+            margin: 5px;
+        }
+        #show-results-button {
+            padding: 10px 20px;
+            margin: 5px;
+            display: none;
+        }
+        .chartjs-tooltip {
+            opacity: 1;
+            position: absolute;
+            background: rgba(0, 0, 0, .7);
+            color: white;
+            border-radius: 3px;
+            padding: 10px;
+            -webkit-transition: all .1s ease;
+            transition: all .1s ease;
+            pointer-events: none;
+            transform: translateX(-50%);
+            white-space: pre-wrap;
+            max-width: 300px;
+            word-wrap: break-word;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h1>360 Degree Skill Assessment</h1>
+        <div id="area-selection">
+            <h3>Select Areas to Focus On:</h3>
+            <h4>Soft Skills</h4>
+            <label><input type="checkbox" value="COMMERCIAL"> Commercial</label>
+            <label><input type="checkbox" value="COMMUNICATIVE"> Communicative</label>
+            <label><input type="checkbox" value="CREATIVE"> Creative</label>
+            <label><input type="checkbox" value="ENTREPRENEURIAL"> Entrepreneurial</label>
+            <label><input type="checkbox" value="FUNCTIONAL"> Functional</label>
+            <label><input type="checkbox" value="LEADERSHIP"> Leadership</label>
+            <label><input type="checkbox" value="ORGANISATIONAL"> Organisational</label>
+            <label><input type="checkbox" value="SOCIAL"> Social</label>
+            <h4>Hard Skills</h4>
+            <label><input type="checkbox" value="TECHNICAL"> Technical</label>
+            <label><input type="checkbox" value="ANALYTICAL"> Analytical</label>
+            <label><input type="checkbox" value="DIGITAL"> Digital</label>
+            <label><input type="checkbox" value="OPERATIONAL"> Operational</label>
+            <button onclick="startAssessment()">Start Assessment</button>
+        </div>
+        <div id="question-container" style="display: none;">
+            <div id="progress">
+                <p id="question-number">Question 1 of 10</p>
+                <progress id="progress-bar" max="10" value="0"></progress>
+            </div>
+            <div class="question">
+                <h3 id="question-title"></h3>
+                <p id="question-description"></p>
+                <form id="question-form"></form>
+            </div>
+            <div id="navigation">
+                <button id="prev-button" onclick="prevQuestion()" disabled>Previous</button>
+                <button id="next-button" onclick="nextQuestion()">Next</button>
+                <button id="show-results-button" onclick="showRadarChart()">Show Results</button>
+            </div>
+        </div>
+        <div id="chart-container" style="display: none;">
+            <canvas id="radarChart"></canvas>
+            <button onclick="showQuestionContainer()">Back to Questions</button>
+        </div>
+        <div id="advice-popup">
+            <p id="advice-text"></p>
+            <span id="advice-popup-close" onclick="closeAdvicePopup()">Close</span>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    let questions = [];
+    let currentQuestionIndex = 0;
+    let answers = [];
+    let selectedAreas = [];
+
+    const areaFiles = {
+        "COMMERCIAL": "https://raw.githubusercontent.com/BecomeDamnGood/QUESTIONS/main/Commercieel.json",
+        "COMMUNICATIVE": "https://raw.githubusercontent.com/BecomeDamnGood/QUESTIONS/main/Communicative.json",
+        "CREATIVE": "https://raw.githubusercontent.com/BecomeDamnGood/QUESTIONS/main/Creative.json",
+        "ENTREPRENEURIAL": "https://raw.githubusercontent.com/BecomeDamnGood/QUESTIONS/main/Entrepreneurial.json",
+        "FUNCTIONAL": "https://raw.githubusercontent.com/BecomeDamnGood/QUESTIONS/main/Functional.json",
+        "LEADERSHIP": "https://raw.githubusercontent.com/BecomeDamnGood/QUESTIONS/main/Leadership.json",
+        "ORGANISATIONAL": "https://raw.githubusercontent.com/BecomeDamnGood/QUESTIONS/main/Organisational.json",
+        "SOCIAL": "https://raw.githubusercontent.com/BecomeDamnGood/QUESTIONS/main/Social.json",
+        "TECHNICAL": "https://raw.githubusercontent.com/BecomeDamnGood/QUESTIONS/main/Hard%20Development.json",
+        "ANALYTICAL": "https://raw.githubusercontent.com/BecomeDamnGood/QUESTIONS/main/Hard%20Strategy.json",
+        "DIGITAL": "https://raw.githubusercontent.com/BecomeDamnGood/QUESTIONS/main/Hard%20Graphical.json",
+        "OPERATIONAL": "https://raw.githubusercontent.com/BecomeDamnGood/QUESTIONS/main/Hard%20Account.json"
+    };
+
+    async function fetchQuestions() {
+        let allQuestions = [];
+        for (let area of selectedAreas) {
+            const url = areaFiles[area];
+            console.log(`Fetching questions from: ${url}`);
+            let response = await fetch(url);
+            if (response.ok) {
+                let data = await response.json();
+                console.log(`Data fetched from ${url}:`, data); // Log fetched data
+                allQuestions = allQuestions.concat(data);
+                console.log(`Fetched ${data.length} questions from ${area}`);
+            } else {
+                console.error(`Failed to load ${area} questions from ${url}`);
+            }
+        }
+        return allQuestions;
+    }
+
+    function startAssessment() {
+        const checkboxes = document.querySelectorAll('#area-selection input[type="checkbox"]');
+        selectedAreas = Array.from(checkboxes).filter(checkbox => checkbox.checked).map(checkbox => checkbox.value);
+        if (selectedAreas.length === 0) {
+            alert("Please select at least one area to start the assessment.");
+            return;
+        }
+        fetchQuestions().then(data => {
+            questions = data;
+            if (questions.length === 0) {
+                alert("No questions were fetched. Please check the JSON files or network connections.");
+                return;
+            }
+            answers = Array(questions.length).fill(null);
+            document.getElementById('area-selection').style.display = 'none';
+            document.getElementById('question-container').style.display = 'block';
+            showQuestion(currentQuestionIndex);
+        }).catch(error => {
+            console.error("Error fetching questions:", error);
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const storedAnswers = localStorage.getItem('answers');
+        if (storedAnswers) {
+            answers = JSON.parse(storedAnswers);
+        }
+
+        document.getElementById('question-form').addEventListener('change', (event) => {
+            const selectedValue = event.target.value;
+            answers[currentQuestionIndex] = parseInt(selectedValue);
+
+            localStorage.setItem('answers', JSON.stringify(answers));
+
+            document.getElementById('progress-bar').value = answers.filter(answer => answer !== null).length;
+        });
+    });
+
+    function showQuestion(index) {
+        if (questions.length === 0) {
+            console.error("No questions available to show.");
+            return;
+        }
+
+        const question = questions[index];
+        document.getElementById('question-number').textContent = `Question ${index + 1} of ${questions.length}`;
+        document.getElementById('question-title').textContent = question.Name;
+        document.getElementById('question-description').textContent = question.Question;
+
+        const form = document.getElementById('question-form');
+        form.innerHTML = '';
+
+        const answersList = [
+            question.Answer1,
+            question.Answer2,
+            question.Answer3,
+            question.Answer4,
+            question.Answer5,
+            question.Answer6,
+            question.Answer7,
+            question.Answer8,
+            question.Answer9,
+            question.Answer10
+        ];
+
+        answersList.forEach((answer, i) => {
+            if (answer) {
+                const radio = document.createElement('input');
+                radio.type = 'radio';
+                radio.name = 'answer';
+                radio.value = i + 1;
+                if (answers[index] === i + 1) {
+                    radio.checked = true;
+                }
+                const label = document.createElement('label');
+                label.textContent = `${i + 1}. ${answer}`;
+                form.appendChild(radio);
+                form.appendChild(label);
+                form.appendChild(document.createElement('br'));
+            }
+        });
+
+        if (index === questions.length - 1) {
+            document.getElementById('show-results-button').style.display = 'inline-block';
+        } else {
+            document.getElementById('show-results-button').style.display = 'none';
+        }
+    }
+
+    function prevQuestion() {
+        if (currentQuestionIndex > 0) {
+            currentQuestionIndex--;
+            showQuestion(currentQuestionIndex);
+            document.getElementById('next-button').disabled = false;
+            if (currentQuestionIndex === 0) {
+                document.getElementById('prev-button').disabled = true;
+            }
+        }
+    }
+
+    function nextQuestion() {
+        if (currentQuestionIndex < questions.length - 1) {
+            currentQuestionIndex++;
+            showQuestion(currentQuestionIndex);
+            document.getElementById('prev-button').disabled = false;
+            if (currentQuestionIndex === questions.length - 1) {
+                document.getElementById('next-button').disabled = true;
+            }
+        }
+    }
+
+    function showRadarChart() {
+        const labels = questions.map((q, index) => `Q${index + 1}`);
+        const data = answers.map(answer => answer || 0);
+        const ctx = document.getElementById('radarChart').getContext('2d');
+
+        const mainGroups = [...new Set(questions.map(q => q["Main Group"]))];
+        const groupData = mainGroups.map(group => {
+            return {
+                label: group,
+                data: questions.map((q, index) => q["Main Group"] === group ? data[index] : 0),
+                fill: true,
+                borderColor: getRandomColor(),
+                backgroundColor: getRandomColor(0.2)
+            };
+        });
+
+        new Chart(ctx, {
+            type: 'radar',
+            data: {
+                labels: labels,
+                datasets: groupData
+            },
+            options: {
+                scales: {
+                    r: {
+                        angleLines: {
+                            display: false
+                        },
+                        suggestedMin: 0,
+                        suggestedMax: 10
+                    }
+                },
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                const index = context.dataIndex;
+                                const question = questions[index].Question;
+                                const score = context.dataset.data[index];
+                                const advice = getAdvice(index, score);
+
+                                return [
+                                    `Question: ${question}`,
+                                    `Score: ${score}`,
+                                    `Advice: ${advice}`
+                                ];
+                            },
+                            title: function() {
+                                return '';
+                            }
+                        },
+                        bodyFont: {
+                            size: 12,
+                        },
+                        footerFont: {
+                            weight: 'bold',
+                        },
+                        footerAlign: 'left',
+                        bodyAlign: 'left',
+                        displayColors: false
+                    }
+                }
+            }
+        });
+        document.getElementById('question-container').style.display = 'none';
+        document.getElementById('chart-container').style.display = 'block';
+    }
+
+    function getAdvice(index, score) {
+        const question = questions[index];
+        if (score <= 4) {
+            return question["Advies 1-4"];
+        } else if (score <= 6) {
+            return question["Advies 5-6"];
+        } else if (score == 7) {
+            return question["Advies 7"];
+        } else {
+            return question["Advies 8-10"];
+        }
+    }
+
+    function getRandomColor(alpha = 1) {
+        const r = Math.floor(Math.random() * 255);
+        const g = Math.floor(Math.random() * 255);
+        const b = Math.floor(Math.random() * 255);
+        return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+    }
+
+    function closeAdvicePopup() {
+        document.getElementById('advice-popup').style.display = 'none';
+    }
+
+    function showQuestionContainer() {
+        document.getElementById('chart-container').style.display = 'none';
+        document.getElementById('question-container').style.display = 'block';
+    }
+</script>
